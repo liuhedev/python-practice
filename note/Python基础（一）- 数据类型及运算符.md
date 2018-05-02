@@ -40,12 +40,21 @@ print(a)
 	
 运算符 | 描述 | 实例
 ---|---|---
+<<<<<<< HEAD
 \-	| 减	|得到负数或是一个数减去另一个数 a - b 输出结果 -10
 \*	| 乘	|两个数相乘或是返回一个被重复若干次的字符串 a * b 输出结果 200
 \/	| 除	|x除以y b / a 输出结果 2
 \//	| 取整除|	返回商的整数部分 9//2 输出结果 4 , 9.0//2.0 输出结果 4.0
 \%	| 取余|	返回除法的余数 b % a 输出结果 0
 \**	| 幂	|返回x的y次幂 a**b 为10的20次方， 输出结果 100000000000000000000
+=======
+-	| 减	|得到负数或是一个数减去另一个数 a - b 输出结果 -10
+*	| 乘	|两个数相乘或是返回一个被重复若干次的字符串 a * b 输出结果 200
+/	| 除	|x除以y b / a 输出结果 2
+//	| 取整除|	返回商的整数部分 9//2 输出结果 4 , 9.0//2.0 输出结果 4.0
+%	| 取余|	返回除法的余数 b % a 输出结果 0
+**	| 幂	|返回x的y次幂 a**b 为10的20次方， 输出结果 100000000000000000000
+>>>>>>> 81eb82b395993e69210aa32449facbeb784dd8cc
 
 ### 赋值运算符
 
@@ -145,6 +154,7 @@ Out[50]: 'liuheliuheliuheliuheliuheliuheliuheliuheliuheliuhe'
 ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 >>> 
 ```
+<<<<<<< HEAD
 
 ### 帮助文档
 
@@ -188,3 +198,5 @@ NAME
 MODULE REFERENCE
     ...
 ```
+=======
+>>>>>>> 81eb82b395993e69210aa32449facbeb784dd8cc
