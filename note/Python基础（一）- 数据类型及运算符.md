@@ -40,30 +40,30 @@ print(a)
 	
 运算符 | 描述 | 实例
 ---|---|---
--	|减	|得到负数或是一个数减去另一个数 a - b 输出结果 -10
-*	|乘	|两个数相乘或是返回一个被重复若干次的字符串 a * b 输出结果 200
-/	|除	|x除以y b / a 输出结果 2
-//	|取整除|	返回商的整数部分 9//2 输出结果 4 , 9.0//2.0 输出结果 4.0
-%	|取余|	返回除法的余数 b % a 输出结果 0
-**	|幂	|返回x的y次幂 a**b 为10的20次方， 输出结果 100000000000000000000
+\-	| 减	|得到负数或是一个数减去另一个数 a - b 输出结果 -10
+\*	| 乘	|两个数相乘或是返回一个被重复若干次的字符串 a * b 输出结果 200
+\/	| 除	|x除以y b / a 输出结果 2
+\//	| 取整除|	返回商的整数部分 9//2 输出结果 4 , 9.0//2.0 输出结果 4.0
+\%	| 取余|	返回除法的余数 b % a 输出结果 0
+\**	| 幂	|返回x的y次幂 a**b 为10的20次方， 输出结果 100000000000000000000
 
 ### 赋值运算符
 
 运算符 | 描述 | 实例
 ---|---|---
-=	|赋值运算符	|把=号右边的结果给左边的变量 num=1+2*3 结果num的值为7
+=	| 赋值运算符	|把=号右边的结果给左边的变量 num=1+2*3 结果num的值为7
 
 ### 复合运算符
 
 运算符 | 描述 | 实例
 ---|---|---
-+=	|加法赋值运算符	|c += a 等效于 c = c + a
--=	|减法赋值运算符	|c -= a 等效于 c = c - a
-*=	|乘法赋值运算符	|c *= a 等效于 c = c * a
-/=	|除法赋值运算符|	c /= a 等效于 c = c / a
-%=	|取模赋值运算符	|c %= a 等效于 c = c % a
-**=	|幂赋值运算符|	c **= a 等效于 c = c ** a
-//=	|取整除赋值运算符|	c //= a 等效于 c = c // a
++=	| 加法赋值运算符	|c += a 等效于 c = c + a
+-=	| 减法赋值运算符	|c -= a 等效于 c = c - a
+*=	| 乘法赋值运算符	|c *= a 等效于 c = c * a
+/=	| 除法赋值运算符|	c /= a 等效于 c = c / a
+%=	| 取模赋值运算符	|c %= a 等效于 c = c % a
+**=	| 幂赋值运算符|	c **= a 等效于 c = c ** a
+//=	| 取整除赋值运算符|	c //= a 等效于 c = c // a
 
 **优先级问题：复合运算符优先级低**
 ```
@@ -79,8 +79,8 @@ In [2]: a*=4+3
 ==	|检查两个操作数的值是否相等，如果是则条件变为真。|	如a=3,b=3则（a == b) 为 true.
 !=|	检查两个操作数的值是否相等，如果值不相等，则条件变为真。|	如a=1,b=3则(a != b) 为 true.
 <>	|检查两个操作数的值是否相等，如果值不相等，则条件变为真。|	如a=1,b=3则(a <> b) 为 true。这个类似于 != 运算符
->	|检查左操作数的值是否大于右操作数的值，如果是，则条件成立。	|如a=7,b=3则(a > b) 为 true.
-<	|检查左操作数的值是否小于右操作数的值，如果是，则条件成立。	|如a=7,b=3则(a < b) 为 false.
+\>	|检查左操作数的值是否大于右操作数的值，如果是，则条件成立。	|如a=7,b=3则(a > b) 为 true.
+\<	|检查左操作数的值是否小于右操作数的值，如果是，则条件成立。	|如a=7,b=3则(a < b) 为 false.
 \>=	|检查左操作数的值是否大于或等于右操作数的值，如果是，则条件成立。	|如a=3,b=3则(a >= b) 为 true.
 <=	|检查左操作数的值是否小于或等于右操作数的值，如果是，则条件成立。	|如a=3,b=3则(a <= b) 为 true.
 
@@ -96,11 +96,6 @@ not	|not x|	布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False
 
 ### 常用数据类型转换
 
-
-header 1 | header 2
----|---
-row 1 col 1 | row 1 col 2
-row 2 col 1 | row 2 col 2
 
 函数|	说明
 ---|---
@@ -149,4 +144,47 @@ Out[50]: 'liuheliuheliuheliuheliuheliuheliuheliuheliuheliuhe'
 >>> keyword.kwlist
 ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 >>> 
+```
+
+### 帮助文档
+
+> 通用帮助函数help()
+
+**python模式下，命令行输入help()**
+
+```
+In [4]: help()
+
+Welcome to Python 3.6's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at http://docs.python.org/3.6/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> del # 要查询的关键字或者函数
+
+
+```
+
+**查询某一模块**
+
+> 使用help(module_name)时首先需要import该模块
+
+```
+>>> import math
+>>> help(math)
+Help on built-in module math:
+
+NAME
+    math
+MODULE REFERENCE
+    ...
 ```
