@@ -168,3 +168,20 @@ Out[6]: 'liuhe haha zheNgdejuaN'
 In [7]: myStr.split(' ')
 Out[7]: ['liuhe', 'haha', 'zhengdejuan']
 ```
+
+#### 其它
+
+```
+# 每个单词首字母大写
+In [8]: myStr.title()
+Out[8]: 'Liuhe Haha Zhengdejuan'
+
+#一个字符串第一个单词首字母大写
+In [9]: myStr.capitalize()
+Out[9]: 'Liuhe haha zhengdejuan'
+
+# endswith
+In [10]: fileName='xx.txt'
+In [11]: fileName.endswith(".txt")
+Out[11]: True
+```
